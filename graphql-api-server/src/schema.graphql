@@ -1,0 +1,59 @@
+type address {
+  node_id: String
+  source_id: String
+  note: String
+  address: String
+  valid_until: String
+  name: String
+  country_codes: String
+  countries: String
+}
+type entity {
+  sourceID: String
+  company_type: String
+  note: String
+  closed_date: String
+  jurisdiction: String
+  struck_off_date: String
+  service_provider: String
+  countries: String
+  jurisdiction_description: String
+  valid_until: String
+  ibcRUC: String
+  name: String
+  country_codes: String
+  inactivation_date: String
+  incorporation_date: String
+  node_id: String
+  status: String
+}
+type intermediary {
+  sourceID: String
+  note: String
+  valid_until: String
+  name: String
+  country_codes: String
+  countries: String
+  node_id: String
+}
+type officer {
+  sourceID: String
+  note: String,
+  valid_until: String
+  name: String
+  country_codes: String
+  countries: String
+  node_id: String
+  status: String
+}
+type other {
+  sourceID: String
+  note: String
+  valid_until: String
+  name: String
+  country_codes: String
+  countries: String
+  node_id: String
+}
+
+

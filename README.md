@@ -2,7 +2,7 @@
 
 ## Components implemented:
 
-### ETL script for Graph database (peristence) - neo4j
+### ETL script for Graph database (persistence) - neo4j
 - The repo contains the ETL script that helps tp load the data to neo4j graph database for `Offshore Leaks is graph data, which is constituted of nodes of various types and links (edges) between the nodes.` from https://offshoreleaks-data.icij.org/offshoreleaks/csv/csv_paradise_papers.2018-02-14.zip
 
 Steps to execute:

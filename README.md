@@ -29,3 +29,4 @@ Please install node/npm (prerequesite)
 1. cd `graphql-api-server`
 2. `npm install`
 3. `npm start`
+4. Access the API console in `localhost:4000`
